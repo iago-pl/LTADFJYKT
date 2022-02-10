@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Las Trepidantes Aventuras de Francisco Javier y Kelin Teresa</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Iago Pena & Rubén Quintas">
+        <link href="css/newcss.css" rel="stylesheet" type="text/css"/>
+        <script src="js/newjavascript.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="div_general">
+            <div class="panel_izq">
+                <div id="boton_re" onclick="retroceder()" title="Retroceder">
+                </div>
+            </div>
+            <div id="central">
+            <div id="vinhetas">
+            <div id="cabecera">
+                <img src="img/Cabecera/Cabecera.png" alt="" class="cabecera_img" style="position: absolute; width:inherit;"/>
+                <img src="img/Cabecera/Cabecera_persnj.png" alt="" style="position: absolute; width:inherit;" class="cabecera_mov"/>
+            </div>
+            
+            <div class="imagenes" id="vin_1">
+                <img src="img/Vinhetas/1/fondo_v1.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/1/persnj_v1.png" alt="" style="position: absolute;" class="mov_1"/>
+                <img src="img/Filtros/desierto.png" alt="" style="position: absolute; width:inherit"/>
+            </div>
+            
+            <div class="imagenes" id="vin_2">
+                <img src="img/Vinhetas/2/fondo_v2.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/2/persnj_v2.png" alt="" style="position: absolute; width:inherit" class="mov_2"/>
+                <img src="img/Filtros/desierto.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/2/bocata_v2_1.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_2_bocata_1"  class="bocatas"/>
+                <img src="img/Vinhetas/2/bocata_v2_2.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_2_bocata_2"  class="bocatas"/>
+            </div>
+            
+            <div class="imagenes" id="vin_3">
+                <img src="img/Vinhetas/3/fondo_v3.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/3/persnj_v3.png" alt="" style="position: absolute; width:inherit" class="mov_3"/>
+                <img src="img/Filtros/bar.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/3/bocata_v3_1.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_3_bocata_1"  class="bocatas"/>
+                <img src="img/Vinhetas/3/etiqueta_v3.png" alt="" style="position: absolute; width:inherit"/>
+            </div>
+            
+            <div class="imagenes" id="vin_4">
+                <img src="img/Vinhetas/4/fondo_v4.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/4/persnj_v4.png" alt="" style="position: absolute; width:inherit" class="mov_4"/>
+                <img src="img/Vinhetas/4/fondo2_v4.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Filtros/bar.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/4/bocata_v4_1.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_4_bocata_1"  class="bocatas"/>
+                <img src="img/Vinhetas/4/bocata_v4_2.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_4_bocata_2"  class="bocatas"/>
+            </div>
+            
+            <div class="imagenes" id="vin_5">
+                <img src="img/Vinhetas/5/fondo_v5.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/5/persnj_v5_1.png" alt="" style="position: absolute; width:inherit" class="mov_5_1"/>
+                <img src="img/Vinhetas/5/persnj_v5_2.png" alt="" style="position: absolute; width:inherit" class="mov_5_2"/>
+                <img src="img/Vinhetas/5/fondo2_v5.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Filtros/bar.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/5/bocata_v5_1.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_5_bocata_1"  class="bocatas"/>
+            </div>
+            
+            <div class="imagenes" id="vin_6">
+                <img src="img/Vinhetas/6/fondo_v6.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/6/persnj_v6.png" alt="" style="position: absolute; width:inherit" class="mov_6"/>
+                <img src="img/Filtros/bar.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/6/bocata_v6.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_6_bocata_1"  class="bocatas"/>
+            </div>
+            
+            <div class="imagenes" id="vin_7">
+                <img src="img/Vinhetas/7/fondo_v7.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/7/persnj_v7.png" alt="" style="position: absolute; width:inherit" class="mov_7"/>
+                <img src="img/Filtros/bar.png" alt="" style="position: absolute; width:inherit"/>
+            </div>
+            
+            <div class="imagenes" id="vin_8">
+                <img src="img/Vinhetas/8/fondo_v8.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/8/persnj_v8.png" alt="" style="position: absolute; width:inherit" class="mov_8"/>
+                <img src="img/Filtros/calle.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/8/bocata_v8_1.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_8_bocata_1"  class="bocatas"/>
+                <img src="img/Vinhetas/8/bocata_v8_2.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_8_bocata_2"  class="bocatas"/>
+            </div>
+            
+            <div class="imagenes" id="vin_9">
+                <img src="img/Vinhetas/9/fondo_v9.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/9/persnj_v9.png" alt="" style="position: absolute; width:inherit" class="mov_9"/>
+                <img src="img/Filtros/calle.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/9/bocata_v9_1.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_9_bocata_1"  class="bocatas"/>
+                <img src="img/Vinhetas/9/bocata_v9_2.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_9_bocata_2"  class="bocatas"/>
+            </div>
+            
+            <div class="imagenes" id="vin_10">
+                <img src="img/Vinhetas/10/fondo_v10.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/10/persnj_v10.png" alt="" style="position: absolute; width:inherit" class="mov_10"/>
+                <img src="img/Filtros/calle.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/10/bocata_v10_1.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_10_bocata_1"  class="bocatas"/>
+                <img src="img/Vinhetas/10/info_10.png" alt="" style="position: absolute; width:inherit;"/>
+            </div>
+            
+            <div class="imagenes" id="vin_11">
+                <img src="img/Vinhetas/11/fondo_v11.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/11/bocata_v11_1.png" alt="" style="position: absolute; width:inherit" class="mov_11"/>
+                <img src="img/Filtros/pensamientos.png" alt="" style="position: absolute; width:inherit"/>
+            </div>
+            
+            <div class="imagenes" id="vin_12">
+                <img src="img/Vinhetas/12/fondo_v12.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/12/bocata_v12_1.png" alt="" style="position: absolute; width:inherit" class="mov_12"/>
+                <img src="img/Filtros/pensamientos.png" alt="" style="position: absolute; width:inherit"/>
+            </div>
+            
+            <div class="imagenes" id="vin_13">
+                <img src="img/Vinhetas/13/fondo_v13.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/13/bocata_v13_1.png" alt="" style="position: absolute; width:inherit" class="mov_13"/>
+                <img src="img/Filtros/pensamientos.png" alt="" style="position: absolute; width:inherit"/>
+            </div>
+            
+            <div class="imagenes" id="vin_14">
+                <img src="img/Vinhetas/14/fondo_v14.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/14/bocata_v14_1.png" alt="" style="position: absolute; width:inherit" class="mov_14"/>
+                <img src="img/Filtros/pensamientos.png" alt="" style="position: absolute; width:inherit"/>
+            </div>
+            
+            <div class="imagenes" id="vin_15">
+                <img src="img/Vinhetas/15/fondo_v15.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/15/bocata_v15_1.png" alt="" style="position: absolute; width:inherit" class="mov_15"/>
+                <img src="img/Filtros/pensamientos.png" alt="" style="position: absolute; width:inherit"/>
+            </div>
+            
+            <div class="imagenes" id="vin_16">
+                <img src="img/Vinhetas/16/fondo_v16.png" alt="" style="position: absolute; width:inherit" class="mov_16_0"/>
+                <img src="img/Filtros/pensamientos.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/16/persnj_v16_1.png" alt="" style="position: absolute; width:inherit" class="mov_16_1"/>
+                <img src="img/Vinhetas/16/persnj_v16_2.png" alt="" style="position: absolute; width:inherit" class="mov_16_2"/>
+            </div>
+            
+            <div class="imagenes" id="vin_17">
+                <img src="img/Vinhetas/17/fondo_v17.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/17/persnj_v17.png" alt="" style="position: absolute; width:inherit" class="mov_17"/>
+                <img src="img/Filtros/pensamientos.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/17/bocata_v17_1.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_17_bocata_1"  class="bocatas"/>
+                <img src="img/Vinhetas/17/bocata_v17_2.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_17_bocata_2"  class="bocatas"/>
+                <img src="img/Vinhetas/17/bocata_v17_3.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_17_bocata_3"  class="bocatas"/>
+            </div>
+            
+            <div class="imagenes" id="vin_18">
+                <img src="img/Vinhetas/18/fondo_v18.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/18/persnj_v18.png" alt="" style="position: absolute; width:inherit" class="mov_18"/>
+                <img src="img/Filtros/pensamientos.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/18/bocata_v18_1.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_18_bocata_1"  class="bocatas"/>
+                <img src="img/Vinhetas/18/bocata_v18_2.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_18_bocata_2"  class="bocatas"/>
+                <img src="img/Vinhetas/18/info_18.png" alt="" style="position: absolute; width:inherit;"/>
+            </div>
+            
+            <div class="imagenes" id="vin_19">
+                <img src="img/Vinhetas/19/fondo_v19.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/19/persnj_v19.png" alt="" style="position: absolute; width:inherit" class="mov_19"/>
+                <img src="img/Filtros/pensamientos.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/19/bocata_v19_1.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_19_bocata_1"  class="bocatas"/>
+            </div>
+            
+            <div class="imagenes" id="vin_20">
+                <img src="img/Vinhetas/20/fondo_v20.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/20/persnj_v20.png" alt="" style="position: absolute; width:inherit" class="mov_20"/>
+                <img src="img/Filtros/pensamientos.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/20/bocata_v20_1.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_20_bocata_1"  class="bocatas"/>
+                <img src="img/Vinhetas/20/bocata_v20_2.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_20_bocata_2"  class="bocatas"/>
+            </div>
+            
+            <div class="imagenes" id="vin_21">
+                <img src="img/Vinhetas/21/fondo_v21.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/21/persnj_v21.png" alt="" style="position: absolute; width:inherit" class="mov_21"/>
+                <img src="img/Vinhetas/21/fondo_v21_2.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Filtros/desierto.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/21/bocata_v21_1.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_21_bocata_1"  class="bocatas"/>
+                <img src="img/Vinhetas/21/bocata_v21_2.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_21_bocata_2"  class="bocatas"/>
+                <img src="img/Vinhetas/21/bocata_v21_3.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_21_bocata_3"  class="bocatas"/>
+            </div>
+            
+            <div class="imagenes" id="vin_22">
+                <img src="img/Vinhetas/22/fondo_v22.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/22/persnj_v22.png" alt="" style="position: absolute; width:inherit" class="mov_22"/>
+                <img src="img/Filtros/pensamientos.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/22/bocata_v22_1.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_22_bocata_1"  class="bocatas"/>
+                <img src="img/Vinhetas/22/bocata_v22_2.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_22_bocata_2"  class="bocatas"/>
+            </div>
+            
+            <div class="imagenes" id="vin_23">
+                <img src="img/Vinhetas/23/fondo_v23.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/23/persnj_v23_1.png" alt="" style="position: absolute; width:inherit" class="mov_23_1"/>
+                <img src="img/Vinhetas/23/persnj_v23_2.png" alt="" style="position: absolute; width:inherit" class="mov_23_2"/>
+                <img src="img/Filtros/pensamientos.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/23/bocata_v23_1.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_23_bocata_1"  class="bocatas"/>
+                <img src="img/Vinhetas/23/bocata_v23_2.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_23_bocata_2"  class="bocatas"/>
+            </div>
+            
+            <div class="imagenes" id="vin_24">
+                <img src="img/Vinhetas/24/fondo_v24.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/24/persnj_v24_1.png" alt="" style="position: absolute; width:inherit" class="mov_24_1"/>
+                <img src="img/Vinhetas/24/persnj_v24_2.png" alt="" style="position: absolute; width:inherit" class="mov_24_2"/>
+                <img src="img/Vinhetas/24/fondo_v24_2.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Filtros/pensamientos.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/24/bocata_v24_1.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_24_bocata_1"  class="bocatas"/>
+            </div>
+            
+            <div class="imagenes" id="vin_25">
+                <img src="img/Vinhetas/25/fondo_v25.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/25/persnj_v25.png" alt="" style="position: absolute; width:inherit" class="mov_25_1"/>
+                <img src="img/Filtros/pensamientos.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Vinhetas/25/bocata_v25_1.png" alt="" style="position: absolute; width:inherit; margin-left:0"  id="vin_25_bocata_1"  class="bocatas"/>
+            </div>
+            
+            <div class="imagenes" id="vin_26">
+                <img src="img/Final/fondo_FInal.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Final/persnj_FInal_1.png" alt="" style="position: absolute; width:inherit"  class="mov_27"/>
+            </div>
+            
+            <div class="imagenes" id="vin_27">
+                <img src="img/Final/fondo_FInal.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Final/persnj_FInal_2.png" alt="" style="position: absolute; width:inherit"  class="mov_28"/>
+            </div>
+            
+            <div class="imagenes" id="vin_28">
+                <img src="img/Final/fondo_FInal.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Final/persnj_FInal_3.png" alt="" style="position: absolute; width:inherit"  class="mov_29"/>
+            </div>
+            
+            <div class="imagenes" id="vin_29">
+                <img src="img/Final/fondo_FInal.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Final/persnj_FInal_4.png" alt="" style="position: absolute; width:inherit"  class="mov_30"/>
+            </div>
+            
+            <div class="imagenes" id="vin_30">
+                <img src="img/Final/fondo_FInal.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Final/persnj_FInal_5.png" alt="" style="position: absolute; width:inherit"  class="mov_31"/>
+            </div>
+            
+            <div class="imagenes" id="vin_31">
+                <img src="img/Final/fondo_FInalFinal_.png" alt="" style="position: absolute; width:inherit"/>
+                <img src="img/Final/bocata_FInalFinal_.png" alt="" style="position: absolute; width:inherit;" class="mov_26"/>
+            </div>          
+            </div>
+            </div>
+            <div class="panel_der">
+                <div id="boton_av" onclick="avanzar()" title="Avanzar">
+                </div>
+                <div id="boton_son" onclick="sonido()" title="No lo pulses">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

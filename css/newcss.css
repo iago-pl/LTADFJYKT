@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select:none;
+}
+
+html{
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#cabecera{
+    display: block;
+    width: 89.5%;
+    z-index: 100;
+    position: absolute;
+    height: 51vw;
+    overflow: hidden;
+}
+
+#vinhetas{
+    width: 100%;
+    margin-left: 10%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.imagenes{
+    display: none;
+    position: absolute;
+    width: 89.5%;
+    height: 51vw;
+    overflow: hidden;
+}
+
+.bocatas{
+    display: none;
+    position: absolute;
+    width: 89.5%;
+    animation: bocatas 0.5s ease-in-out;
+    height: 51vw;
+    overflow: hidden;
+}
+
+@keyframes bocatas {
+    from {transform: scale(0.95); opacity: 0}
+    to {transform: scale(1); opacity: 100}
+}
+
+.panel_izq{
+    width: 10%;
+    z-index: 100;
+    position: absolute;
+    margin-left: 0%;
+    background-image: url("../img/Fondo/Fondo.png");
+    background-repeat: repeat;
+    background-size: 95%;
+    top: 0;    
+}
+
+.panel_der{
+    width: 10%;
+    z-index: 100;
+    position: absolute;
+    margin-left: 90%;
+    background-image: url("../img/Fondo/Fondo.png");
+    background-repeat: repeat;
+    background-size: 95%;
+    top: 0;
+}
+
+#boton_re{
+    width: 80%;
+    height: 8vw;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url("../img/Botones/boton_re.png");
+    background-repeat: no-repeat;
+    display: block;
+    background-size: contain;
+    background-position: 50% 50%;
+    position: absolute;
+}
+
+#boton_son{
+    width: 80%;
+    height: 8vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    bottom: 1vw;
+    background-image: url("../img/Botones/boton_son.png");
+    background-repeat: no-repeat;
+    display: block;
+    background-size: contain;
+    background-position: 50% 50%;
+    position: absolute;
+}
+
+#boton_av:hover{
+    background-image: url("../img/Botones/boton_av_hov.png");
+}
+
+#boton_re:hover{
+    background-image: url("../img/Botones/boton_re_hov.png");
+}
+
+#boton_son:hover{
+    background-image: url("../img/Botones/boton_son_hov.png");
+}
+
+#div_general{
+    margin-top: 0px;
+}
+
+#boton_av{
+    width: 80%;
+    height: 8vw;
+    margin: 10%;
+    background-image: url("../img/Botones/boton_av.png");
+    background-repeat: no-repeat;
+    display: block;
+    background-size: contain;
+    background-position: 50% 50%;
+    position: absolute;
+}
+
+#avanzar{
+    width: 80%;
+    height: auto;
+    margin-top: 10%;
+}
+
+.vinheta{
+    display: none;
+    position: absolute;
+}
+
+.cabecera_mov{
+    top: 50%;
+    transition: all 1s;
+}
+
+#cabecera:hover .cabecera_mov{
+    top: 0%;
+}
+
+.mov_1{
+    top: 0%; 
+    height: 100%; 
+    left: -5%; 
+    width: 100%;
+    animation: mov_1 1s ease-in-out;
+}
+
+@keyframes mov_1 {
+    from {top: 13%; height: 50%; left: 22%; width: 45%}
+    to {top: 0%; height: 100%; left: -5%; width: 100%}
+}
+
+.mov_2{
+    animation: mov_2 1s ease-in-out;
+}
+
+@keyframes mov_2 {
+    from {top: 13%; left: 7%;}
+    to {left: 0%; top:0%;}
+}
+
+.mov_3{
+    top: 15%;
+    transition: all 2s;
+}
+
+.imagenes:hover .mov_3{
+    top: 0%;
+}
+
+.mov_4{
+    top: 10%;
+    transition: all 1s;
+}
+
+.imagenes:hover .mov_4{
+    top: 0%;
+}
+
+.mov_5_1{
+    top: 0%;
+    transition: all 2s;
+    right: 0%;
+}
+
+.imagenes:hover .mov_5_1{
+    top: 1.5%;
+    right: 1.5%;
+}
+
+.mov_5_2{
+    top: 5%;
+    transition: all 2s;
+}
+
+.imagenes:hover .mov_5_2{
+    top: 0%;
+}
+
+.mov_6{
+    right: 8%;
+    transition: all 2s;
+}
+
+.imagenes:hover .mov_6{
+    right: 9%
+}
+
+.mov_7{
+    top: 1%;
+    transition: all 2s;
+}
+
+.imagenes:hover .mov_7{
+    top: 0%
+}
+
+.mov_8{
+    animation: mov_8 1s infinite ease-in-out;
+}
+
+@keyframes mov_8 {
+    0% {top: 0%;}
+  50% {top: 2%;}
+  100% {top: 0%;}
+}
+
+.mov_9{
+    animation: mov_8 1s infinite ease-in-out;
+}
+
+.mov_10{
+    top: 0%;
+    transition: all 2s;
+}
+
+.imagenes:hover .mov_10{
+    top: 1%
+}
+
+.mov_11{
+    animation: mov_11 4s infinite;
+}
+
+@keyframes mov_11 {
+    0% {top: 0%;}
+  50% {top: 1%;}
+  100% {top: 0%;}
+}
+
+.mov_12{
+    animation: mov_11 4s infinite ease-in-out;
+}
+
+.mov_13{
+    animation: mov_11 4s infinite ease-in-out;
+}
+
+.mov_14{
+    animation: mov_11 4s infinite  ease-in-out;
+}
+
+.mov_15{
+    animation: mov_11 4s infinite  ease-in-out;
+}
+
+.mov_16_0{
+    animation: mov_11 4s infinite  ease-in-out;
+}
+
+.mov_16_1{
+    animation: mov_16_1 2s ease-out;
+}
+
+@keyframes mov_16_1 {
+    0% {top: 80%; left: -5%}
+  100% {top: 0%; left: 0%}
+}
+
+.mov_16_2{
+    animation: mov_16_2 4s ease-out;
+}
+
+@keyframes mov_16_2 {
+    0% {top: -80%; left: 5%}
+   40% {top: -80%; left: 5%}
+   90% {top: 0%; left: 0%}
+}
+
+.mov_17{
+    top: 0%;
+    transition: all 2s;
+}
+
+.imagenes:hover .mov_17{
+    top: 1%
+}
+
+.mov_18{
+    top: 2%;
+    animation: mov_18 2s ease-in-out infinite;
+}
+
+@keyframes mov_18 {
+    0% {top: 0%;}
+    50% {top: 2%;}
+    100% {top: 0%;}
+}
+
+.mov_19{
+    left: -110%; 
+    animation: mov_19 2s ease-in-out;
+}
+
+@keyframes mov_19 {
+    from {left: 110%;}
+    to {left: -110%;}
+}
+
+.mov_20{
+    top: 10%;
+    transition: all 2s;
+}
+
+.imagenes:hover .mov_20{
+    top: 0%
+}
+
+.mov_22{
+    top: 1%;
+    transition: all 2s;
+}
+
+.imagenes:hover .mov_22{
+    top: 0%
+}
+
+.mov_23_1{
+    top: 10%;
+    left: -2%;
+    transition: all 2s;
+}
+
+.imagenes:hover .mov_23_1{
+    top: 0%;
+    left: 0%;
+}
+
+.mov_23_2{
+    top: 10%;
+    left: 2%;
+    transition: all 2s;
+}
+
+.imagenes:hover .mov_23_2{
+    top: 0%;
+    left: 0%;        
+}
+
+.mov_24_2{
+    left: -25%;
+    top: 0%;
+    animation: mov_24_2 1s ease-in-out;
+}
+
+@keyframes mov_24_2 {
+    from {left: 0%; top: 15%}
+    to {left: -25%; top; 0%}
+}
+
+.mov_25{
+    top: 0%;
+    transition: all 2s;
+}
+
+.imagenes:hover .mov_25{
+    top: 1%
+}
+
+.mov_26{
+    top: 100%;
+    transition: all 2s;
+}
+
+.mov_27{
+    top: 50%;
+    transition: all 1s;
+}
+
+.mov_28{
+    top: 50%;
+    transition: all 1s;
+}
+
+.mov_29{
+    top: 50%;
+    transition: all 1s;
+}
+
+.mov_30{
+    top: 50%;
+    transition: all 1s;
+}
+
+.mov_31{
+    top: 50%;
+    transition: all 1s;
+}
+
+.imagenes:hover .mov_26{
+    top: 0%;
+}
+
+.imagenes:hover .mov_27{
+    top: 0%;
+}
+
+.imagenes:hover .mov_28{
+    top: 0%;
+}
+
+.imagenes:hover .mov_29{
+    top: 0%;
+}
+
+.imagenes:hover .mov_30{
+    top: 0%;
+}
+
+.imagenes:hover .mov_31{
+    top: 0%;
+}
